@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <script src="script.js" defer></script>
+  
+</head>
+<body>
+  <header>
+  <nav class="navbar">
+    <div class="logo-and-nav-links">
+    <img src="./images/icon-menu.svg" alt="menu-icon" id="hamburger">
+    <img src="./images/logo.svg" alt="brand-logo" id="logo">
+    <div class="navigation-links">
+      <a href="#">Collections</a>
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+    <div class="user-and-cart">
+      <div>
+        <span class="counter">0</span>
+      <img src="./images/icon-cart.svg" alt="cart-icon" id="cart" class="cart2">
+    </div>
+      <img src="./images/image-avatar.png" alt="image-user" id="user">
+    </div>
+    
+  </nav>
+  <div class="line"></div>
+  <div class="cart-box">
+    <h3>Cart</h3>
+    <hr>
+    <div id="show-only-after-add-to-cart">
+    <div class="product-in-cart">
+      <img src="./images/image-product-1.jpg" alt="product-image" id="product-image">
+      <div class="detail-in-cart">
+      <h4> Fall Limited Edition Sneakers</h4>
+      <span id="multiply">$125 * 1 </span> <span id="total">$125</span>
+    </div>
+    <img src="./images/icon-delete.svg" alt="delete-button" id="delete-inside-cart">
+    <br>
+  </div>
+  <button id="checkout">Checkout</button>
+    </div>
+    <p id="empty">Your Cart is Empty</p>
+  </div>
+</header>
+
+
+
+
+
+
+<!-- main  -->
+
+
+
+
+<main id="main-flex-conatiner">
+  
+  <section id="light-room">
+    <img src="./images/icon-close.svg" alt="close-menu" id="cross">
+    <div class="slider">
+      <img src="./images/icon-previous.svg" alt="previous" id="previous">
+      <img src="./images/image-product-1.jpg" alt="product-image" id="main-image-for-slider">
+      <img src="./images/icon-next.svg" alt="next" id="next">
+    </div>
+    <div class="sub-slider">
+      <img src="./images/image-product-1.jpg" alt="slider-images" class="light-room-slider addditional-class-after-click">
+      <img src="./images/image-product-2.jpg" alt="slider-images" class="light-room-slider">
+      <img src="./images/image-product-3.jpg" alt="slider-images" class="light-room-slider">
+      <img src="./images/image-product-4.jpg" alt="slider-images" class="light-room-slider">
+      
+    </div>
+  </section>
+  <section id="light-room-container">
+    <div class="main-imgae">
+      <img src="./images/image-product-1.jpg" alt="product-image" id="main-img">
+    </div>
+    <div class="clickable-images">
+      <img src="./images/image-product-1.jpg" alt="other-images-of-product" class="click-me-to-add addditional-class-after-click">
+      <img src="./images/image-product-2.jpg" alt="other-images-of-product" class="click-me-to-add">
+      <img src="./images/image-product-3.jpg" alt="other-images-of-product" class="click-me-to-add">
+      <img src="./images/image-product-4.jpg" alt="other-images-of-product" class="click-me-to-add">
+    </div>
+  </section>
+  <section id="detail-of-product">
+    <h2>SNEAKER COMPANY</h2>
+    <h1>Fall Limited Edition Sneakers</h1>
+    <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+     
+      <h4>$125.00 <span>50%</span></h4>
+     <h6>$250.00</h6>
+     <button id="minus"><img src="./images/icon-minus.svg" alt="minus-sign"></button>
+     <span id="count">0</span> 
+     <button id="plus"><img src="./images/icon-plus.svg" alt="plus-sign"></button>
+  
+     <button id="add-to-cart-button"><img src="./images/icon-cart.svg" alt="cart" id="cart-for-add"> Add to cart</button> 
+  </section>
+ 
+</main>
+<div class="black-bg"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- 
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart -->
+  
+ 
+</body>
+</html>
